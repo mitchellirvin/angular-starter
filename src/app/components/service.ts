@@ -6,7 +6,7 @@ export class Service {
   private url = 'http://localhost:8080/getAboutMe';  // URL to web api
   constructor(private http: Http) { }
 
-  getAboutMe(): Promise<Array<String>> {
+  getAboutMe(): Promise<any> {
     return this.http
       .get(this.url)
       .toPromise()

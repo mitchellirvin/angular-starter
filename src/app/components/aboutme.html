@@ -1,8 +1,8 @@
-<h2>
-  About Me!
-  <ul>
+<div>
+  <button (click)="getAboutMe()">Get Info</button>
+  <ul class="personalInfo">
     <li *ngFor="let fact of personalInfo">
       {{fact}}
     </li>
   </ul>
-</h2>
+</div>

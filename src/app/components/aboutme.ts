@@ -4,7 +4,8 @@ import { Service } from './service';
 
 @Component({
   selector: 'aboutme',
-  templateUrl: './aboutme.html'
+  templateUrl: './aboutme.html',
+  styleUrls: ['./aboutme.css']
 })
 export class AboutMe implements OnInit {
   personalInfo: String[];
@@ -25,6 +26,6 @@ export class AboutMe implements OnInit {
   }
 
   ngOnInit(): void {
-    this.getAboutMe();
+    // this.getAboutMe();
   }
 }
