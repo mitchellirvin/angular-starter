@@ -1,5 +1,15 @@
-.personalInfo {
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+.header-image {
+  background-image: url('../resources/Mitch2.jpg');
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+}
+
+.aboutme-card {
+  margin: 40px;
+  max-width: 400px;
+}
+
+.aboutme-card .mat-card-header {
+  margin-bottom: 20px;
 }

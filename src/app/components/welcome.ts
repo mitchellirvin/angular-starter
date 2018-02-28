@@ -3,7 +3,8 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'welcome',
-  templateUrl: './welcome.html'
+  templateUrl: './welcome.html',
+  styleUrls: ['./welcome.css']
 })
 export class Welcome implements OnInit {
 

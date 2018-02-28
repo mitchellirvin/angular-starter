@@ -1,3 +1,27 @@
 .headerNav {
   padding: 20px 0px;
+  height: 200px;
+}
+
+.sideNavContainer {
+  height: 50%;
+}
+
+.sideNav {
+  background-color: #ffebf2;
+}
+
+.sideNav button {
+  margin: 15px;
+  display: block;
+  width: 125px;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+}
+
+.footer div {
+  padding: 20px;
 }
